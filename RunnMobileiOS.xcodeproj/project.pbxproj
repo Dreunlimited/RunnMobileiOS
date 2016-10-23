@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D951056160CDF40630E1383 /* Pods_RunnMobileiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B947F29389E025D44DB6F18 /* Pods_RunnMobileiOS.framework */; };
+		A65D4E9F1DBBF83100612CF4 /* MealDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65D4E9E1DBBF83100612CF4 /* MealDetailsViewController.swift */; };
+		A65D4EA11DBBFEFF00612CF4 /* TrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65D4EA01DBBFEFF00612CF4 /* TrayViewController.swift */; };
+		A65D4EA41DBBFFF700612CF4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65D4EA31DBBFFF700612CF4 /* MapKit.framework */; };
 		A679319F1DB92DDE00F4FEDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A679319E1DB92DDE00F4FEDB /* AppDelegate.swift */; };
 		A67931A11DB92DDE00F4FEDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67931A01DB92DDE00F4FEDB /* ViewController.swift */; };
 		A67931A41DB92DDE00F4FEDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67931A21DB92DDE00F4FEDB /* Main.storyboard */; };
 		A67931A61DB92DDE00F4FEDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67931A51DB92DDE00F4FEDB /* Assets.xcassets */; };
 		A67931A91DB92DDE00F4FEDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67931A71DB92DDE00F4FEDB /* LaunchScreen.storyboard */; };
+		A67931B31DB9338400F4FEDB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A67931B21DB9338400F4FEDB /* SWRevealViewController.m */; };
+		A67931B61DB94B8E00F4FEDB /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67931B51DB94B8E00F4FEDB /* RestaurantViewController.swift */; };
+		A67931B81DB953D000F4FEDB /* CustomerMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67931B71DB953D000F4FEDB /* CustomerMenuTableViewController.swift */; };
+		A67931BA1DB9582600F4FEDB /* MealListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67931B91DB9582600F4FEDB /* MealListTableViewController.swift */; };
+		A6923ED81DBC059F00630023 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6923ED71DBC059F00630023 /* PaymentViewController.swift */; };
+		A6923EDA1DBC097500630023 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6923ED91DBC097500630023 /* OrderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B947F29389E025D44DB6F18 /* Pods_RunnMobileiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunnMobileiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		713D997A104F38B12771941F /* Pods-RunnMobileiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnMobileiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RunnMobileiOS/Pods-RunnMobileiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A65D4E9E1DBBF83100612CF4 /* MealDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealDetailsViewController.swift; sourceTree = "<group>"; };
+		A65D4EA01DBBFEFF00612CF4 /* TrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrayViewController.swift; sourceTree = "<group>"; };
+		A65D4EA31DBBFFF700612CF4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A679319B1DB92DDE00F4FEDB /* RunnMobileiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunnMobileiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A679319E1DB92DDE00F4FEDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A67931A01DB92DDE00F4FEDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +37,15 @@
 		A67931A51DB92DDE00F4FEDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A67931A81DB92DDE00F4FEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A67931AA1DB92DDE00F4FEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67931B01DB9338300F4FEDB /* RunnMobileiOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RunnMobileiOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		A67931B11DB9338400F4FEDB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		A67931B21DB9338400F4FEDB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		A67931B51DB94B8E00F4FEDB /* RestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		A67931B71DB953D000F4FEDB /* CustomerMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerMenuTableViewController.swift; sourceTree = "<group>"; };
+		A67931B91DB9582600F4FEDB /* MealListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealListTableViewController.swift; sourceTree = "<group>"; };
+		A6923ED71DBC059F00630023 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		A6923ED91DBC097500630023 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		D802DC1CAC351371C72F8C9A /* Pods-RunnMobileiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnMobileiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RunnMobileiOS/Pods-RunnMobileiOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65D4EA41DBBFFF700612CF4 /* MapKit.framework in Frameworks */,
+				9D951056160CDF40630E1383 /* Pods_RunnMobileiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A65D4EA21DBBFFF700612CF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A65D4EA31DBBFFF700612CF4 /* MapKit.framework */,
+				1B947F29389E025D44DB6F18 /* Pods_RunnMobileiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A67931921DB92DDE00F4FEDB = {
 			isa = PBXGroup;
 			children = (
 				A679319D1DB92DDE00F4FEDB /* RunnMobileiOS */,
 				A679319C1DB92DDE00F4FEDB /* Products */,
+				A65D4EA21DBBFFF700612CF4 /* Frameworks */,
+				F2E79C85E2CCE10220D5909A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +91,41 @@
 		A679319D1DB92DDE00F4FEDB /* RunnMobileiOS */ = {
 			isa = PBXGroup;
 			children = (
+				A67931B41DB933BA00F4FEDB /* Lib */,
 				A679319E1DB92DDE00F4FEDB /* AppDelegate.swift */,
 				A67931A01DB92DDE00F4FEDB /* ViewController.swift */,
 				A67931A21DB92DDE00F4FEDB /* Main.storyboard */,
 				A67931A51DB92DDE00F4FEDB /* Assets.xcassets */,
 				A67931A71DB92DDE00F4FEDB /* LaunchScreen.storyboard */,
 				A67931AA1DB92DDE00F4FEDB /* Info.plist */,
+				A67931B51DB94B8E00F4FEDB /* RestaurantViewController.swift */,
+				A67931B71DB953D000F4FEDB /* CustomerMenuTableViewController.swift */,
+				A67931B91DB9582600F4FEDB /* MealListTableViewController.swift */,
+				A65D4E9E1DBBF83100612CF4 /* MealDetailsViewController.swift */,
+				A65D4EA01DBBFEFF00612CF4 /* TrayViewController.swift */,
+				A6923ED71DBC059F00630023 /* PaymentViewController.swift */,
+				A6923ED91DBC097500630023 /* OrderViewController.swift */,
 			);
 			path = RunnMobileiOS;
+			sourceTree = "<group>";
+		};
+		A67931B41DB933BA00F4FEDB /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				A67931B11DB9338400F4FEDB /* SWRevealViewController.h */,
+				A67931B21DB9338400F4FEDB /* SWRevealViewController.m */,
+				A67931B01DB9338300F4FEDB /* RunnMobileiOS-Bridging-Header.h */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		F2E79C85E2CCE10220D5909A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				713D997A104F38B12771941F /* Pods-RunnMobileiOS.debug.xcconfig */,
+				D802DC1CAC351371C72F8C9A /* Pods-RunnMobileiOS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A67931AD1DB92DDE00F4FEDB /* Build configuration list for PBXNativeTarget "RunnMobileiOS" */;
 			buildPhases = (
+				98B9AA3B3055D3DBCD21C4E5 /* [CP] Check Pods Manifest.lock */,
 				A67931971DB92DDE00F4FEDB /* Sources */,
 				A67931981DB92DDE00F4FEDB /* Frameworks */,
 				A67931991DB92DDE00F4FEDB /* Resources */,
+				533F5FE97F2D7A908FF195E6 /* [CP] Embed Pods Frameworks */,
+				BEECD3FEB2B97B19227A5A78 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +164,7 @@
 					A679319A1DB92DDE00F4FEDB = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = JC2MFJ36MH;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,13 +200,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		533F5FE97F2D7A908FF195E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RunnMobileiOS/Pods-RunnMobileiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98B9AA3B3055D3DBCD21C4E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEECD3FEB2B97B19227A5A78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RunnMobileiOS/Pods-RunnMobileiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A67931971DB92DDE00F4FEDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A67931A11DB92DDE00F4FEDB /* ViewController.swift in Sources */,
+				A6923EDA1DBC097500630023 /* OrderViewController.swift in Sources */,
+				A65D4E9F1DBBF83100612CF4 /* MealDetailsViewController.swift in Sources */,
+				A65D4EA11DBBFEFF00612CF4 /* TrayViewController.swift in Sources */,
+				A67931B61DB94B8E00F4FEDB /* RestaurantViewController.swift in Sources */,
+				A67931BA1DB9582600F4FEDB /* MealListTableViewController.swift in Sources */,
 				A679319F1DB92DDE00F4FEDB /* AppDelegate.swift in Sources */,
+				A67931B81DB953D000F4FEDB /* CustomerMenuTableViewController.swift in Sources */,
+				A6923ED81DBC059F00630023 /* PaymentViewController.swift in Sources */,
+				A67931B31DB9338400F4FEDB /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,26 +383,33 @@
 		};
 		A67931AE1DB92DDE00F4FEDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 713D997A104F38B12771941F /* Pods-RunnMobileiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = JC2MFJ36MH;
 				INFOPLIST_FILE = RunnMobileiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pruicode.RunnMobileiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnMobileiOS/RunnMobileiOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		A67931AF1DB92DDE00F4FEDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D802DC1CAC351371C72F8C9A /* Pods-RunnMobileiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = JC2MFJ36MH;
 				INFOPLIST_FILE = RunnMobileiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pruicode.RunnMobileiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunnMobileiOS/RunnMobileiOS-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +433,7 @@
 				A67931AF1DB92DDE00F4FEDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
